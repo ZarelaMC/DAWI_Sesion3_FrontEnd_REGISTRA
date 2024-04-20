@@ -1,0 +1,935 @@
+Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+Getting latest version of the Chocolatey package for download.
+Not using proxy.                                                                                                        Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/2.2.2.                               Downloading https://community.chocolatey.org/api/v2/package/chocolatey/2.2.2 to C:\Users\HP\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip                                                                                           Not using proxy.                                                                                                        Extracting C:\Users\HP\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\HP\AppData\Local\Temp\chocolatey\chocoInstall
+Installing Chocolatey on the local machine
+Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+ADVERTENCIA: Not setting tab completion: Profile file does not exist at
+'C:\Users\HP\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+Chocolatey v2.2.2
+Upgrading the following packages:
+python;visualstudio2019-workload-vctools
+By upgrading, you accept licenses for the packages.
+python is not installed. Installing...
+Progress: Downloading chocolatey-compatibility.extension 1.0.0... 100%
+
+chocolatey-compatibility.extension v1.0.0 [Approved]
+chocolatey-compatibility.extension package files upgrade completed. Performing other installation steps.
+ Installed/updated chocolatey-compatibility extensions.
+ The upgrade of chocolatey-compatibility.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-compatibility'
+Progress: Downloading chocolatey-core.extension 1.4.0... 100%
+
+chocolatey-core.extension v1.4.0 [Approved]
+chocolatey-core.extension package files upgrade completed. Performing other installation steps.
+ Installed/updated chocolatey-core extensions.
+ The upgrade of chocolatey-core.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
+Progress: Downloading chocolatey-windowsupdate.extension 1.0.5... 100%
+
+chocolatey-windowsupdate.extension v1.0.5 [Approved]
+chocolatey-windowsupdate.extension package files upgrade completed. Performing other installation steps.
+ Installed/updated chocolatey-windowsupdate extensions.
+ The upgrade of chocolatey-windowsupdate.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate'
+Progress: Downloading KB2919442 1.0.20160915... 100%
+
+KB2919442 v1.0.20160915 [Approved]
+KB2919442 package files upgrade completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The upgrade of KB2919442 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB2919355 1.0.20160915... 100%
+
+KB2919355 v1.0.20160915 [Approved]
+KB2919355 package files upgrade completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The upgrade of KB2919355 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB2999226 1.0.20181019... 100%
+
+KB2999226 v1.0.20181019 [Approved] - Possibly broken
+KB2999226 package files upgrade completed. Performing other installation steps.
+Skipping installation because update KB2999226 does not apply to this operating system (Microsoft Windows 10 Home Single Language).
+ The upgrade of KB2999226 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB3035131 1.0.3... 100%
+
+KB3035131 v1.0.3 [Approved]
+KB3035131 package files upgrade completed. Performing other installation steps.
+Skipping installation because update KB3035131 does not apply to this operating system (Microsoft Windows 10 Home Single Language).
+ The upgrade of KB3035131 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB3033929 1.0.5... 100%
+
+KB3033929 v1.0.5 [Approved]
+KB3033929 package files upgrade completed. Performing other installation steps.
+Skipping installation because update KB3033929 does not apply to this operating system (Microsoft Windows 10 Home Single Language).
+ The upgrade of KB3033929 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading vcredist140 14.38.33135... 100%
+
+vcredist140 v14.38.33135 [Approved]
+vcredist140 package files upgrade completed. Performing other installation steps.
+Runtime for architecture x86 version 14.38.33135 is already installed.
+Runtime for architecture x64 version 14.38.33135 is already installed.
+ The upgrade of vcredist140 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading vcredist2015 14.0.24215.20170201... 100%
+
+vcredist2015 v14.0.24215.20170201 [Approved]
+vcredist2015 package files upgrade completed. Performing other installation steps.
+ The upgrade of vcredist2015 was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\vcredist2015'
+Progress: Downloading python312 3.12.3... 100%
+
+python312 v3.12.3 [Approved]
+python312 package files upgrade completed. Performing other installation steps.
+Installing 64-bit python312...
+python312 has been installed.
+Added C:\ProgramData\chocolatey\bin\python3.12.exe shim pointed to 'c:\python312\python.exe'.
+Python installed to: 'C:\Python312'
+Restricting write permissions to Administrators
+  python312 can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The upgrade of python312 was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading python3 3.12.3... 100%
+
+python3 v3.12.3 [Approved]
+python3 package files upgrade completed. Performing other installation steps.
+ The upgrade of python3 was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\python3'
+Progress: Downloading python 3.12.3... 100%
+
+python v3.12.3 [Approved]
+python package files upgrade completed. Performing other installation steps.
+ The upgrade of python was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\python'
+visualstudio2019-workload-vctools is not installed. Installing...
+Progress: Downloading chocolatey-dotnetfx.extension 1.0.1... 100%
+
+chocolatey-dotnetfx.extension v1.0.1
+chocolatey-dotnetfx.extension package files upgrade completed. Performing other installation steps.
+ Installed/updated chocolatey-dotnetfx extensions.
+ The upgrade of chocolatey-dotnetfx.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-dotnetfx'
+Progress: Downloading chocolatey-visualstudio.extension 1.11.1... 100%
+
+chocolatey-visualstudio.extension v1.11.1
+chocolatey-visualstudio.extension package files upgrade completed. Performing other installation steps.
+ Installed/updated chocolatey-visualstudio extensions.
+ The upgrade of chocolatey-visualstudio.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-visualstudio'
+Progress: Downloading dotnetfx 4.8.0.20220524... 100%
+
+dotnetfx v4.8.0.20220524 [Approved]
+dotnetfx package files upgrade completed. Performing other installation steps.
+Microsoft .NET Framework 4.8 or later is already installed.
+ The upgrade of dotnetfx was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading visualstudio-installer 2.0.3... 100%
+
+visualstudio-installer v2.0.3 [Approved]
+visualstudio-installer package files upgrade completed. Performing other installation steps.
+ The upgrade of visualstudio-installer was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading visualstudio2019buildtools 16.11.35.0... 100%
+
+visualstudio2019buildtools v16.11.35 [Approved]
+visualstudio2019buildtools package files upgrade completed. Performing other installation steps.
+Downloading channel manifest
+  from 'https://aka.ms/vs/16/release/channel'
+Progress: 100% - Completed download of C:\Users\HP\AppData\Local\Temp\chocolatey\chocolatey-visualstudio.extension\ChannelManifest_-602808024.man (131.46 KB).
+Download of ChannelManifest_-602808024.man (131.46 KB) completed.
+Downloading catalog manifest
+  from 'https://download.visualstudio.microsoft.com/download/pr/4f765eb7-6d6e-4c22-865e-111a0166d32f/272a4b8f569e7155260243556a4bbbf3c6fb63ecea78486465f80549d2716a86/VisualStudio.vsman'
+Progress: 100% - Completed download of C:\Users\HP\AppData\Local\Temp\chocolatey\chocolatey-visualstudio.extension\Catalog_1046090143.man (11.27 MB).
+Download of Catalog_1046090143.man (11.27 MB) completed.
+Downloading channel manifest
+  from 'https://aka.ms/vs/17/release/channel'
+Progress: 100% - Completed download of C:\Users\HP\AppData\Local\Temp\chocolatey\chocolatey-visualstudio.extension\ChannelManifest_574806083.man (89.77 KB).
+Download of ChannelManifest_574806083.man (89.77 KB) completed.
+Downloading catalog manifest
+  from 'https://download.visualstudio.microsoft.com/download/pr/f602e0ef-3c65-4237-8b0c-c173ab1c5aff/cc34aaf651399a391474663b707e58c46c65df3005ef8e1fc4d1b2f173e917ac/VisualStudio.vsman'
+Progress: 100% - Completed download of C:\Users\HP\AppData\Local\Temp\chocolatey\chocolatey-visualstudio.extension\Catalog_1134198934.man (13.87 MB).
+Download of Catalog_1134198934.man (13.87 MB) completed.
+Downloading visualstudio2019buildtools
+  from 'https://download.visualstudio.microsoft.com/download/pr/4f765eb7-6d6e-4c22-865e-111a0166d32f/73b4dea5640b562e47fead50b13336133f8c9989a3de513affa2eb2010577541/vs_BuildTools.exe'
+Progress: 100% - Completed download of C:\Users\HP\AppData\Local\Temp\chocolatey\visualstudio2019buildtools\16.11.35\vs_BuildTools.exe (3.79 MB).
+Download of vs_BuildTools.exe (3.79 MB) completed.
+Hashes match.
+Installing visualstudio2019buildtools...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1028\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\2052\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1055\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1046\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1042\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1029\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1036\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\3082\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1040\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1031\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1045\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1041\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1049\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\HelpFile\1033\help.html...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\vs_setup_bootstrapper.exe...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.C2RSignatureReader.Interop.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.C2RSignatureReader.Native.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.Identity.Client.Broker.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.Identity.Client.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.Identity.Client.Extensions.Msal.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.Identity.Client.NativeInterop.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.IdentityModel.Abstractions.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.VisualStudio.RemoteControl.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.VisualStudio.Setup.Common.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.VisualStudio.Setup.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.VisualStudio.Setup.Download.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.VisualStudio.Telemetry.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Microsoft.VisualStudio.Utilities.Internal.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\runtimes\win-x64\native\msalruntime.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\runtimes\win-arm64\native\msalruntime_arm64.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\runtimes\win-x86\native\msalruntime_x86.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\Newtonsoft.Json.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\System.Memory.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\System.Runtime.CompilerServices.Unsafe.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\VSInstallerElevationService.Contracts.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\pt-BR\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\zh-Hans\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\ko\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\de\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\cs\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\it\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\pl\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\ja\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\ru\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\zh-Hant\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\es\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\fr\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\tr\vs_setup_bootstrapper.resources.dll...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\vs_setup_bootstrapper.config...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\vs_setup_bootstrapper.exe.config...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\detection.json...
+
+Preparing: C:\Users\HP\AppData\Local\Temp\chocolatey\516408c32d3288f2bcf2\vs_bootstrapper_d15\vs_setup_bootstrapper.json...
+
+visualstudio2019buildtools has been installed.
+  visualstudio2019buildtools may be able to be automatically uninstalled.
+ The upgrade of visualstudio2019buildtools was successful.
+  Software installed to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools'
+Progress: Downloading visualstudio2019-workload-vctools 1.0.1... 100%
+
+visualstudio2019-workload-vctools v1.0.1 [Approved]
+visualstudio2019-workload-vctools package files upgrade completed. Performing other installation steps.
+Installing visualstudio2019-workload-vctools...
+
+[04cc:0001][2024-04-19T17:47:29] Saving the current locale (es-ES) to user.json.
+[04cc:0001][2024-04-19T17:47:29] Setting the telemetry services
+[04cc:0004][2024-04-19T17:47:29] Creating a new telemetry service.
+[04cc:0001][2024-04-19T17:47:29] Visual Studio Installer Version: 3.9.2180
+[04cc:0001][2024-04-19T17:47:29] Raw Command line: "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools" --includeRecommended --norestart --quiet --add Microsoft.VisualStudio.Workload.VCTools
+[04cc:0004][2024-04-19T17:47:29] Telemetry session ID: acb92441-b02b-49c9-becc-1c9a7c0298d0
+[04cc:0005][2024-04-19T17:47:29] Creating new ExperimentationService
+[04cc:0001][2024-04-19T17:47:29] Parsed command line options: modify --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools" --norestart --quiet
+[04cc:0005][2024-04-19T17:47:29] Telemetry property VS.ABExp.Flights : lazytoolboxinit;fwlargebuffer;refactoring;spmoretempsbtn1;asloff;keybindgoldbarext;asynccsproj;vsfricheditor;completionapi;typeimportcompletion:30562486;vsttkcf:30514304;4f604693:30775293;i4588376:30751670;fijh5155:30690136;8ig0d248:30783238;85ihc887:30842123;chat_aa_t:30915623;treatment20240418:31022833;enablecontextinhistoryt:30979417;0604a212:30990143;gotodef_t:31006263
+[04cc:0001][2024-04-19T17:47:30] Using registry value of (1) to theme installer.
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.source : WPF
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.locale : es-ES
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.installerversion : 3.9.2180.11832
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.startmethod : direct
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.activityid : e6e3a4d3-6bea-4401-b73f-59ca923e63f5
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.campaign :
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.passive : False
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.quiet : True
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.processtype : ui
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.force : False
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.noweb : False
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.iselevated : True
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.issystem : False
+[04cc:0004][2024-04-19T17:47:30] Telemetry property vs.willow.isadmin : True
+[04cc:0001][2024-04-19T17:47:30] Getting singleton lock. Mutex name: DevdivInstallerUI
+[04cc:0001][2024-04-19T17:47:30] Getting singleton lock succeed.
+[04cc:0001][2024-04-19T17:47:30] Navigation requested from ApplicationViewModel to MainPageViewModel
+[04cc:0012][2024-04-19T17:47:31] Uri 'https://go.microsoft.com/fwlink/?linkid=857708' redirected to 'https://sendvsfeedback2.azurewebsites.net/api'
+[04cc:0017][2024-04-19T17:47:33] Telemetry property vs.setup.WorkloadOverrides.DidReceiveOverride : False
+[04cc:0017][2024-04-19T17:47:33] Telemetry property vs.setup.WorkloadOverrides.RuleId : None
+[04cc:0004][2024-04-19T17:47:33] Telemetry property VS.SetupEngine.ChannelUpdateDisabled : False
+Warning: [04cc:0004][2024-04-19T17:47:33] Setup expects one or more channel manifest in the repository.
+Warning: [04cc:0004][2024-04-19T17:47:33] Setup expects one or more channel manifest in the repository.
+[04cc:0004][2024-04-19T17:47:33] Authentication Environment variable setting value: null
+[04cc:0004][2024-04-19T17:47:33] Authenticate: True
+[04cc:0019][2024-04-19T17:47:34] Download requested: https://download.visualstudio.microsoft.com/download/pr/f602e0ef-3c65-4237-8b0c-c173ab1c5aff/902df8a657407b2a2b25ade7e9b11c7fa97ce5ac4d9413638c46d0e1c1c0dae8/VisualStudio.17.Release.chman
+[04cc:001a][2024-04-19T17:47:34] Attempting download 'https://download.visualstudio.microsoft.com/download/pr/f602e0ef-3c65-4237-8b0c-c173ab1c5aff/902df8a657407b2a2b25ade7e9b11c7fa97ce5ac4d9413638c46d0e1c1c0dae8/VisualStudio.17.Release.chman' using engine 'WebClient'
+[04cc:001a][2024-04-19T17:47:35] ManifestVerifier Result: Success
+[04cc:001a][2024-04-19T17:47:35] Download of 'https://download.visualstudio.microsoft.com/download/pr/f602e0ef-3c65-4237-8b0c-c173ab1c5aff/902df8a657407b2a2b25ade7e9b11c7fa97ce5ac4d9413638c46d0e1c1c0dae8/VisualStudio.17.Release.chman' succeeded using engine 'WebClient'
+[04cc:0019][2024-04-19T17:47:35] Download requested: https://download.visualstudio.microsoft.com/download/pr/4f765eb7-6d6e-4c22-865e-111a0166d32f/f8568229c5868fad858b7984182d2222dd36426e7c7ea9559bc92819b7ea3cda/VisualStudio.16.Release.chman
+[04cc:0012][2024-04-19T17:47:35] Attempting download 'https://download.visualstudio.microsoft.com/download/pr/4f765eb7-6d6e-4c22-865e-111a0166d32f/f8568229c5868fad858b7984182d2222dd36426e7c7ea9559bc92819b7ea3cda/VisualStudio.16.Release.chman' using engine 'WebClient'
+[04cc:0012][2024-04-19T17:47:35] ManifestVerifier Result: Success
+[04cc:0012][2024-04-19T17:47:35] Download of 'https://download.visualstudio.microsoft.com/download/pr/4f765eb7-6d6e-4c22-865e-111a0166d32f/f8568229c5868fad858b7984182d2222dd36426e7c7ea9559bc92819b7ea3cda/VisualStudio.16.Release.chman' succeeded using engine 'WebClient'
+[04cc:0004][2024-04-19T17:47:35] Trying to remove channel manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6b3d39b2\installChannelManifest.json
+[04cc:0004][2024-04-19T17:47:35] Trying to remove product manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6b3d39b2\install_catalog.json
+[04cc:0004][2024-04-19T17:47:35] Trying to remove channel manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6e196c1e\installChannelManifest.json
+[04cc:0004][2024-04-19T17:47:35] Trying to remove product manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6e196c1e\install_catalog.json
+[04cc:0019][2024-04-19T17:47:36] Download requested: https://go.microsoft.com/fwlink/?linkid=2066144
+[04cc:001a][2024-04-19T17:47:36] Attempting download 'https://go.microsoft.com/fwlink/?linkid=2066144' using engine 'WebClient'
+[04cc:001a][2024-04-19T17:47:36] Uri 'https://go.microsoft.com/fwlink/?linkid=2066144' redirected to 'https://vsstartpagenewsfeed.azureedge.net/news/vs'
+[04cc:001a][2024-04-19T17:47:36] Download of 'https://go.microsoft.com/fwlink/?linkid=2066144' succeeded using engine 'WebClient'
+Warning: [04cc:0013][2024-04-19T17:47:36] No previous catalog found at 'C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\88c61eba\catalog.previous.json'
+Warning: [04cc:0013][2024-04-19T17:47:36] No catalog found at 'C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6b3d39b2\catalog.json'
+[04cc:0017][2024-04-19T17:47:36] Status changed to NoUpdate
+[04cc:0013][2024-04-19T17:47:36] Telemetry property VS.SetupEngine.ChannelUpdateDisabled : False
+[04cc:0013][2024-04-19T17:47:36] ManifestVerifier Result: Success
+[04cc:0013][2024-04-19T17:47:36] Setup Engine v3.9.2180, Microsoft Windows NT 10.0.19045.0
+[04cc:0013][2024-04-19T17:47:36] Command line: "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools" --includeRecommended --norestart --quiet --add Microsoft.VisualStudio.Workload.VCTools
+[04cc:0013][2024-04-19T17:47:36] Loading packages for instance '88c61eba'
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' found for package 'Microsoft.VisualStudio.MinShell.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' found for package 'Microsoft.VisualStudio.Community.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Loaded existing instance for product 'Microsoft.VisualStudio.Product.BuildTools,version=16.11.34729.46'
+[04cc:0013][2024-04-19T17:47:38] Telemetry property VS.SetupEngine.Id : VisualStudio/16.11.35+34729.46
+[04cc:0013][2024-04-19T17:47:38] Telemetry property VS.SetupEngine.Branch : d16.11
+[04cc:0013][2024-04-19T17:47:38] Telemetry property VS.SetupEngine.BuildNumber : 16.11.34729.46
+[04cc:0013][2024-04-19T17:47:38] Telemetry property VS.SetupEngine.InstanceId : 88c61eba
+[04cc:0013][2024-04-19T17:47:38] Telemetry property VS.SetupEngine.EngineVersion : 3.9.2180.11832
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' found for package 'Microsoft.VisualStudio.MinShell.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' found for package 'Microsoft.VisualStudio.Community.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Windows.UniversalCRT.Msu.8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.2,6.3)'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Windows.UniversalCRT.Msu.81 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.3,6.4)'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.7.2.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.7.2.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Windows.UniversalCRT.Msu.7 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.Debugger.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' found for package 'Microsoft.VisualStudio.MinShell.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' found for package 'Microsoft.VisualStudio.Community.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.8.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.8.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.NuGet.PowershellBindingRedirect is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Windows.UniversalCRT.Msu.8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.2,6.3)'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Windows.UniversalCRT.Msu.81 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.3,6.4)'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.7.2.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.7.2.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Windows.UniversalCRT.Msu.7 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.Debugger.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' found for package 'Microsoft.VisualStudio.MinShell.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{8D5F2001-0BFF-4319-B939-785F13A23A2E}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' found for package 'Microsoft.VisualStudio.Community.Msi,version=16.11.34728.71'
+[04cc:0013][2024-04-19T17:47:38] Compatible package version is less than or equal to the package version. Code '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0013][2024-04-19T17:47:38] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.8.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.Net.4.8.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0013][2024-04-19T17:47:38] Package Microsoft.VisualStudio.NuGet.PowershellBindingRedirect is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0013][2024-04-19T17:47:38] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+Warning: [04cc:0013][2024-04-19T17:47:38] No previous catalog found at 'C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\88c61eba\catalog.previous.json'
+[04cc:0013][2024-04-19T17:47:38] Adding packages from --add
+[04cc:0010][2024-04-19T17:47:38] Planning graph selection
+[04cc:0010][2024-04-19T17:47:38] Graph.PlanSelection completed in 4ms
+[04cc:0010][2024-04-19T17:47:38] Building the required chain
+[04cc:0010][2024-04-19T17:47:38] Committing graph selection
+[04cc:0010][2024-04-19T17:47:38] Graph.CommitSelection completed in 1ms
+[04cc:0010][2024-04-19T17:47:38] Updating graph selection
+[04cc:0010][2024-04-19T17:47:38] Graph.UpdateSelection completed in 7ms
+[04cc:0010][2024-04-19T17:47:38] Notifying VMs with the updated selections: GroupSelected - Microsoft.VisualStudio.Workload.VCTools Microsoft.VisualStudio.Component.VC.CoreBuildTools Microsoft.VisualStudio.Component.VC.Tools.x86.x64 Microsoft.VisualStudio.Component.VC.Redist.14.Latest Microsoft.VisualStudio.Component.Windows10SDK.19041 Microsoft.VisualStudio.Component.VC.CMake.Project Microsoft.VisualStudio.Component.TestTools.BuildTools Microsoft.VisualStudio.Component.VC.ASAN Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core Microsoft.VisualStudio.Component.Windows10SDK Microsoft.VisualStudio.Component.TextTemplating Microsoft.VisualStudio.Component.VC.CoreIde
+[04cc:0013][2024-04-19T17:47:39] Extension signature validation returned 0 unsigned extensions and 0 invalidly signed extensions.
+[04cc:0013][2024-04-19T17:47:39] No restart manager available. Assuming no reboot required for instance state.
+[04cc:0013][2024-04-19T17:47:39] No restart manager available. Assuming no reboot required for instance state.
+[04cc:0008][2024-04-19T17:47:39] ManifestVerifier Result: Success
+[04cc:0008][2024-04-19T17:47:39] Creating a UnelevatedProductModifier to modify the following packages: Microsoft.VisualStudio.Product.BuildTools Microsoft.VisualStudio.Workload.MSBuildTools Microsoft.VisualStudio.Workload.VCTools Microsoft.VisualStudio.Component.Roslyn.Compiler Microsoft.Component.MSBuild Microsoft.VisualStudio.Component.CoreBuildTools Microsoft.VisualStudio.Component.Windows10SDK Microsoft.VisualStudio.Component.VC.CoreBuildTools Microsoft.VisualStudio.Component.VC.Tools.x86.x64 Microsoft.VisualStudio.Component.VC.Redist.14.Latest Microsoft.VisualStudio.Component.Windows10SDK.19041 Microsoft.VisualStudio.Component.VC.CMake.Project Microsoft.VisualStudio.Component.TestTools.BuildTools Microsoft.VisualStudio.Component.VC.ASAN Microsoft.VisualStudio.Component.TextTemplating Microsoft.VisualStudio.Component.VC.CoreIde Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core
+[04cc:0008][2024-04-19T17:47:39] Created a UnelevatedProductModifier
+[04cc:0008][2024-04-19T17:47:39] Decorating UnelevatedProductModifier with UnelevatedInstallerTelemetryDecorator
+[04cc:0008][2024-04-19T17:47:39] ManifestVerifier Result: Success
+[04cc:0018][2024-04-19T17:47:39] ManifestVerifier Result: Success
+[04cc:001a][2024-04-19T17:47:39] WebClient error 'RequestCanceled' with 'https://aka.ms/vs/17/release/channel' - ExecuteWithRetryAsync failed along with a cancellation request
+Warning: [04cc:001a][2024-04-19T17:47:39] Failed to get the HttpWebResponse while invoking a HEAD request against https://aka.ms/vs/17/release/channel:System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   en Microsoft.VisualStudio.Setup.Download.WebRequestService.<>c__DisplayClass9_0.<ExecuteWithRetryAsync>b__0(Object _)
+   en System.Threading.Tasks.Task`1.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.Download.DownloadManagerAuthenticationProxy.<MungeUriAsync>d__28.MoveNext()
+[04cc:001a][2024-04-19T17:47:39] Download requested: https://aka.ms/vs/17/release/channel
+[04cc:001d][2024-04-19T17:47:39] Error 0x8013153b: [04cc:001d][2024-04-19T17:47:39] Could not update channel "https://aka.ms/vs/17/release/channel"
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.Download.DownloadManagerAuthenticationProxy.<Download>d__27.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.ChannelDownloader.<GetLatestChannelManifestAsync>d__7.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.ChannelManager.<UpdateChannelManifestAsync>d__71.MoveNext()
+Warning: [04cc:001d][2024-04-19T17:47:39] Se canceló una tarea.
+[04cc:0019][2024-04-19T17:47:39] WebClient error 'RequestCanceled' with 'https://aka.ms/vs/16/release/channel' - ExecuteWithRetryAsync failed along with a cancellation request
+Warning: [04cc:0019][2024-04-19T17:47:39] Failed to get the HttpWebResponse while invoking a HEAD request against https://aka.ms/vs/16/release/channel:System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   en Microsoft.VisualStudio.Setup.Download.WebRequestService.<>c__DisplayClass9_0.<ExecuteWithRetryAsync>b__0(Object _)
+   en System.Threading.Tasks.Task`1.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.Download.DownloadManagerAuthenticationProxy.<MungeUriAsync>d__28.MoveNext()
+[04cc:0019][2024-04-19T17:47:39] Download requested: https://aka.ms/vs/16/release/channel
+[04cc:0019][2024-04-19T17:47:39] Error 0x8013153b: [04cc:0019][2024-04-19T17:47:39] Could not update channel "https://aka.ms/vs/16/release/channel"
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.Download.DownloadManagerAuthenticationProxy.<Download>d__27.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.ChannelDownloader.<GetLatestChannelManifestAsync>d__7.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.ChannelManager.<UpdateChannelManifestAsync>d__71.MoveNext()
+Warning: [04cc:0019][2024-04-19T17:47:39] Se canceló una tarea.
+[04cc:0019][2024-04-19T17:47:39] ManifestVerifier Result: Success
+[04cc:001f][2024-04-19T17:47:39] WebClient error 'RequestCanceled' with 'https://aka.ms/vs/channels' - ExecuteWithRetryAsync failed along with a cancellation request
+Warning: [04cc:001f][2024-04-19T17:47:39] Failed to get the HttpWebResponse while invoking a HEAD request against https://aka.ms/vs/channels:System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   en Microsoft.VisualStudio.Setup.Download.WebRequestService.<>c__DisplayClass9_0.<ExecuteWithRetryAsync>b__0(Object _)
+   en System.Threading.Tasks.Task`1.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.Download.DownloadManagerAuthenticationProxy.<MungeUriAsync>d__28.MoveNext()
+[04cc:001f][2024-04-19T17:47:39] Download requested: https://aka.ms/vs/channels
+Warning: [04cc:0020][2024-04-19T17:47:39] Failed to download channels file from https://aka.ms/vs/channels: Se canceló una tarea.
+[04cc:0021][2024-04-19T17:47:39] WebClient error 'RequestCanceled' with 'https://aka.ms/vs/installer/latest/feed' - ExecuteWithRetryAsync failed along with a cancellation request
+Warning: [04cc:0021][2024-04-19T17:47:39] Failed to get the HttpWebResponse while invoking a HEAD request against https://aka.ms/vs/installer/latest/feed:System.OperationCanceledException: Operación cancelada.
+   en System.Threading.CancellationToken.ThrowOperationCanceledException()
+   en System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   en Microsoft.VisualStudio.Setup.Download.WebRequestService.<>c__DisplayClass9_0.<ExecuteWithRetryAsync>b__0(Object _)
+   en System.Threading.Tasks.Task`1.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.VisualStudio.Setup.Download.DownloadManagerAuthenticationProxy.<MungeUriAsync>d__28.MoveNext()
+[04cc:0021][2024-04-19T17:47:39] Download requested: https://aka.ms/vs/installer/latest/feed
+Warning: [04cc:0022][2024-04-19T17:47:39] Failed to update the latest installer feed Se canceló una tarea.
+[04cc:0022][2024-04-19T17:47:39] ManifestVerifier Result: Success
+[04cc:0010][2024-04-19T17:47:39] Status changed to NoUpdate
+[04cc:001b][2024-04-19T17:47:40] ManifestVerifier Result: Success
+[04cc:0018][2024-04-19T17:47:40] ManifestVerifier Result: Success
+[04cc:0003][2024-04-19T17:47:40] Authenticode verification returned 0x00000000 for path: C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe.
+Warning: [04cc:0036][2024-04-19T17:59:35] No previous catalog found at 'C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\88c61eba\catalog.previous.json'
+[04cc:0036][2024-04-19T17:59:35] Setup Engine v3.9.2180, Microsoft Windows NT 10.0.19045.0
+[04cc:0036][2024-04-19T17:59:35] Command line: "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools" --includeRecommended --norestart --quiet --add Microsoft.VisualStudio.Workload.VCTools
+[04cc:0036][2024-04-19T17:59:35] Loading packages for instance '88c61eba'
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] DependencyComparer was created without a productArch. productArch will be ignored for dependency comparison.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Loaded existing instance for product 'Microsoft.VisualStudio.Product.BuildTools,version=16.11.34729.46'
+[04cc:0036][2024-04-19T17:59:37] Telemetry property VS.SetupEngine.Id : VisualStudio/16.11.35+34729.46
+[04cc:0036][2024-04-19T17:59:37] Telemetry property VS.SetupEngine.Branch : d16.11
+[04cc:0036][2024-04-19T17:59:37] Telemetry property VS.SetupEngine.BuildNumber : 16.11.34729.46
+[04cc:0036][2024-04-19T17:59:37] Telemetry property VS.SetupEngine.InstanceId : 88c61eba
+[04cc:0036][2024-04-19T17:59:37] Telemetry property VS.SetupEngine.EngineVersion : 3.9.2180.11832
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Windows.UniversalCRT.Msu.8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.2,6.3)'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Windows.UniversalCRT.Msu.81 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.3,6.4)'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.7.2.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.7.2.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Windows.UniversalCRT.Msu.7 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.Debugger.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.8.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.8.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.NuGet.PowershellBindingRedirect is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Windows.UniversalCRT.Msu.8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.2,6.3)'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Windows.UniversalCRT.Msu.81 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.3,6.4)'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.7.2.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.7.2.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.16299]'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F9D12DAF-9D90-4626-B4EE-721FCBA19932}' found for package 'Microsoft.Build.FileTracker.Msi,version=16.11.34728.71'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6E7D95E1-DA2A-4DED-A8C6-3FBA1714DB62}' found for package 'Microsoft.VisualStudio.Setup.Configuration,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{0AC39B1B-4AFC-4684-B22C-625848E16C92}' found for package 'Microsoft.VisualStudio.Setup.WMIProvider,version=3.7.2182.35401'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Windows.UniversalCRT.Msu.7 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{310D6272-1190-4630-9679-E10EABEF41B9}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{AE908327-44FB-449D-BA41-08E7470BC678}' found for package 'Microsoft.VisualCpp.RuntimeDebug.14,version=14.29.30153,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{79B26BAD-9B46-4F83-B5A8-2D9153D78816}' found for package 'Microsoft.VisualCpp.CRT.ClickOnce.Msi,version=14.29.30153,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.Debugger.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.Debugger.Remote.DbgHelp.Win8 is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.3]'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D56DC014-C4C1-4330-B32B-D9785DAE7BCB}' found for package 'Microsoft.VisualStudio.Debugger.Script.Msi,version=16.10.31205.180,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' found for package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{BA855DFD-8D85-4011-997D-56F1DAC778E0}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.MinShell.Msi.Resources,version=16.10.31306.167,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{6CBDE7BE-E956-4E0E-81FB-2CB79190C924}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x86' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' found for package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{102E83BD-B6A0-4C74-AD22-7D594A3435D3}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.FileHandler.Msi,version=16.11.31503.54,chip=x64' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+Warning: [04cc:0036][2024-04-19T17:59:37] Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{384A28F5-6B08-01FB-BE75-EBC673BBCACF}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{2C897543-D940-0177-58DE-0D00653DE0B2}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{88679CF6-5CF6-431A-AFDB-EC152BAEF3E5}' found for package 'Microsoft.Net.Cumulative.TargetingPack.Resources,version=4.8.3761.2,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{94730F25-E8E1-47E5-8D87-0728D08F5BCA}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi,version=16.10.31206.173'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{4086D76C-E32C-4618-AB8C-35513D17D553}' found for package 'Microsoft.ClickOnce.BootStrapper.Msi.Resources,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{22E13608-4DB0-4977-A267-3AAFA09CD54A}' found for package 'Microsoft.Net.ClickOnceBootstrapper,version=4.8.4119.2'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{D1E61C57-DD9D-48D9-8945-C02617B12949}' found for package 'Microsoft.SQL.ClickOnceBootstrapper.Msi,version=16.10.31205.180'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{A556D5F5-3CDE-4356-920A-9A27CD5B43C9}' found for package 'Microsoft.ClickOnce.SignTool.Msi,version=16.0.28329.73'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{89F9608D-879D-4D9E-BA0A-82B93F56D848}' found for package 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.33328.57,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.8.FullRedist is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.Net.4.8.FullRedist.Resources is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1.1,10.0.17763]'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' found for package 'OpenJDKv8,version=8.0.302.8,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Compatible package is not installed. Code '{98614B7B-EF3C-46D9-9EEC-37FE21250B84}' will not be used for repair/uninstall attempts.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{3C188EC3-3DFE-48B1-9C45-D1AF419D534F}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.127.62,chip=x64'
+[04cc:0036][2024-04-19T17:59:37] Package Microsoft.VisualStudio.NuGet.PowershellBindingRedirect is not applicable: La versión del sistema operativo actual, '10.0.19045.0', no está dentro del intervalo de versiones admitidas, '[6.1,6.2)'.
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{C756420B-C91C-4410-8092-F49C24CEF594}' found for package 'Microsoft.Net.CoreUWP,version=1.1.54'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{F61DEE70-A6EE-4EC1-8DB5-5C70F404E4E1}' found for package 'Microsoft.VisualCpp.CRT.Appx.Resources.Msi,version=14.29.30133,language=es-ES'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{90605CCF-E296-476B-908D-C267168CF9BB}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.110.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{429A96DC-F861-44F1-9D85-ED1225E075FD}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.120.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{934F705F-5D2C-4A60-A522-954F03F13309}' found for package 'Microsoft.VisualCpp.CRT.Appx.Desktop.140.Msi,version=14.29.30133'
+[04cc:0036][2024-04-19T17:59:37] Compatible ProductCode '{5801C689-648C-4D3D-A037-6D99D845291C}' found for package 'Microsoft.VisualCpp.CRT.Appx.Universal.120.Msi,version=14.29.30133'
+Warning: [04cc:0036][2024-04-19T17:59:37] No previous catalog found at 'C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\88c61eba\catalog.previous.json'
+[04cc:0036][2024-04-19T17:59:38] Shutting down the application with exit code 0
+[04cc:0001][2024-04-19T17:59:38] Releasing singleton lock.
+[04cc:0001][2024-04-19T17:59:38] Releasing singleton lock succeed.
+[04cc:0001][2024-04-19T17:59:38] Releasing singleton lock.
+[04cc:0001][2024-04-19T17:59:38] Singleton lock does not exist. Releasing singleton lock skipped.
+Warning: [04cc:0030][2024-04-19T17:59:38] No previous catalog found at 'C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\88c61eba\catalog.previous.json'
+Warning: [04cc:0030][2024-04-19T17:59:38] No catalog found at 'C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6b3d39b2\catalog.json'
+[04cc:0038][2024-04-19T17:59:38] Status changed to NoUpdate
+[04cc:0018][2024-04-19T17:59:38] ManifestVerifier Result: Success
+[04cc:0001][2024-04-19T17:59:38] ManifestVerifier Result: Success
+[04cc:0001][2024-04-19T17:59:38] Closing the installer with exit code 0
+[04cc:0001][2024-04-19T17:59:38] Exit Code: 0
+[04cc:0001][2024-04-19T17:59:38] Cleared previous session ID.
+[04cc:0001][2024-04-19T17:59:42] Trying to remove channel manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6b3d39b2\installChannelManifest.json
+[04cc:0001][2024-04-19T17:59:42] Trying to remove product manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6b3d39b2\install_catalog.json
+[04cc:0001][2024-04-19T17:59:42] Trying to remove channel manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6e196c1e\installChannelManifest.json
+[04cc:0001][2024-04-19T17:59:42] Trying to remove product manifest: C:\Users\HP\AppData\Local\Microsoft\VisualStudio\Packages\_Channels\6e196c1e\install_catalog.json
+[04cc:0001][2024-04-19T17:59:42] ManifestVerifier Result: Success
+[04cc:0001][2024-04-19T17:59:42] ManifestVerifier Result: Success
+visualstudio2019-workload-vctools has been installed.
+  visualstudio2019-workload-vctools may be able to be automatically uninstalled.
+ The upgrade of visualstudio2019-workload-vctools was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+
+Chocolatey upgraded 19/19 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Upgraded:
+ - chocolatey-compatibility.extension v1.0.0
+ - chocolatey-core.extension v1.4.0
+ - chocolatey-dotnetfx.extension v1.0.1
+ - chocolatey-visualstudio.extension v1.11.1
+ - chocolatey-windowsupdate.extension v1.0.5
+ - dotnetfx v4.8.0.20220524
+ - KB2919355 v1.0.20160915
+ - KB2919442 v1.0.20160915
+ - KB2999226 v1.0.20181019
+ - KB3033929 v1.0.5
+ - KB3035131 v1.0.3
+ - python v3.12.3
+ - python3 v3.12.3
+ - python312 v3.12.3
+ - vcredist140 v14.38.33135
+ - vcredist2015 v14.0.24215.20170201
+ - visualstudio2019buildtools v16.11.35
+ - visualstudio2019-workload-vctools v1.0.1
+ - visualstudio-installer v2.0.3
+Type ENTER to exit: 
