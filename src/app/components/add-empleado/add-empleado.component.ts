@@ -28,8 +28,6 @@ export class AddEmpleadoComponent {
     pais:{
       idPais: -1
     }
-
-
   }
 
   constructor(private paisService: PaisService,
@@ -43,14 +41,9 @@ export class AddEmpleadoComponent {
   registra(){
     this.empleadoService.registraEmpleado(this.objEmpleado).subscribe(
       x => Swal.fire({icon: 'info',
-      title: 'Resultado del Registro Empleado- YheremiRamos',
+      title: 'Registro exitoso',
       text: x}) 
     );
 
   }
-
-
-
-
-
 }
